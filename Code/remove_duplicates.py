@@ -6,3 +6,9 @@ def remove_duplicates(lst):
             seen.add(item)
             result.append(item)
     return result
+
+
+if __name__ == "__main__":
+    lst = [1, 2, 2, 3, 1, 4]
+    result = remove_duplicates(lst)
+    print(result)
